@@ -1,0 +1,12 @@
+E:\My Soft\WPF\Cabinet\Cabinet_Control\Cabinet_Control\bin\Debug\Cabinet_Control.dll
+E:\My Soft\WPF\Cabinet\Cabinet_Control\Cabinet_Control\bin\Debug\Cabinet_Control.pdb
+E:\My Soft\WPF\Cabinet\Cabinet_Control\Cabinet_Control\obj\Debug\ResolveAssemblyReference.cache
+E:\My Soft\WPF\Cabinet\Cabinet_Control\Cabinet_Control\obj\Debug\MyCabinet.baml
+E:\My Soft\WPF\Cabinet\Cabinet_Control\Cabinet_Control\obj\Debug\MyCabinet.g.cs
+E:\My Soft\WPF\Cabinet\Cabinet_Control\Cabinet_Control\obj\Debug\Cabinet_Control_MarkupCompile.cache
+E:\My Soft\WPF\Cabinet\Cabinet_Control\Cabinet_Control\obj\Debug\Cabinet_Control.g.resources
+E:\My Soft\WPF\Cabinet\Cabinet_Control\Cabinet_Control\obj\Debug\Cabinet_Control.Properties.Resources.resources
+E:\My Soft\WPF\Cabinet\Cabinet_Control\Cabinet_Control\obj\Debug\GenerateResource.read.1.tlog
+E:\My Soft\WPF\Cabinet\Cabinet_Control\Cabinet_Control\obj\Debug\GenerateResource.write.1.tlog
+E:\My Soft\WPF\Cabinet\Cabinet_Control\Cabinet_Control\obj\Debug\Cabinet_Control.dll
+E:\My Soft\WPF\Cabinet\Cabinet_Control\Cabinet_Control\obj\Debug\Cabinet_Control.pdb

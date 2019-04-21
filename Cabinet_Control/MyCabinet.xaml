@@ -1,0 +1,33 @@
+﻿<UserControl x:Class="Cabinet.MyCabinet"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="100" d:DesignWidth="50" Loaded="UserControl_Loaded">
+    <UserControl.ContextMenu>
+        <ContextMenu x:Name="LeftClickMenu">
+            <MenuItem Header="Display Image" Click="AddImage"/>
+            <MenuItem Header="Add Drawer" Click="AddContent"/>
+            <MenuItem Header="Show Drawer" Click="ShowContent"/>
+            <MenuItem Header="Hide Content" Click="HideContent"/>
+            <MenuItem Header="Show Name" Click="ShowName"/>
+            <MenuItem Header="Hide Name" Click="HideName"/>
+            <Separator/>
+            <MenuItem Header="Remove Item" Click="CloseMe"/>
+        </ContextMenu>
+    </UserControl.ContextMenu>
+    <Grid>
+        <Image Name="imgFloor" Stretch="Fill" Source="/Cabinet_Control;component/Images/cabinet.png" Margin="0,0,0,0" AllowDrop="False" />
+        <Grid x:Name="DrAdd" Visibility="Hidden" >
+            <TextBox x:Name="txtDr" Visibility="Hidden" Height="20" VerticalAlignment="Top" />
+            <Button x:Name="AddDr" Visibility="Hidden" Margin="0,22,0,0" Content="Add" Height="21" VerticalAlignment="Top" Click="AddDr_Click"></Button>
+            <ComboBox x:Name="cboDr" Visibility="Hidden" Height="21" VerticalAlignment="Top" SelectionChanged="cboDr_SelectionChanged"></ComboBox>
+            <TextBox x:Name="txtDrS" Visibility="Hidden" Height="20" Margin="0,21,0,0" VerticalAlignment="Top" KeyDown="txtDrS_KeyDown" />
+            <ListBox x:Name="lstDr" Visibility="Hidden"  Margin="0,45,0,5" MouseDoubleClick="lstDr_MouseDoubleClick" />
+        </Grid>
+        <Label Height="auto" Visibility="Visible" Name="lblName" VerticalAlignment="Bottom" Background="Transparent" Margin="0,0,0,7" ToolTip="{Binding ElementName=lblName, Path=Content}">
+            <TextBlock TextWrapping="Wrap">".........."</TextBlock>
+        </Label>        
+    </Grid>    
+</UserControl>
